@@ -1,0 +1,41 @@
+{
+  "name": "chopperstream",
+  "version": "0.0.0",
+  "description": "A livestream overlay for reporting on local helicopter and aircraft activity.",
+  "homepage": "https://github.com/nicksmadscience/chopperstream",
+  "author": {
+    "name": "Nick Piegari",
+    "email": "nickpiegari@gmail.com",
+    "url": "nickpiegari.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "panel",
+        "title": "Panel",
+        "width": 8,
+        "file": "panel.html",
+        "headerColor": "#000080"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "license": "Apache-2.0"
+}
