@@ -6,7 +6,7 @@
   "author": {
     "name": "Nick Piegari",
     "email": "nickpiegari@gmail.com",
-    "url": "nickpiegari.com"
+    "url": "https://nickpiegari.com"
   },
   "files": [
     "dashboard",
@@ -23,7 +23,7 @@
     "dashboardPanels": [
       {
         "name": "panel",
-        "title": "Panel",
+        "title": "ChopperStream",
         "width": 8,
         "file": "panel.html",
         "headerColor": "#000080"
